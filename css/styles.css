@@ -1,0 +1,50 @@
+body {
+    background: url("../img/meadow.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#summary {
+    text-align: center;
+    margin-top: -10.5rem;
+    font-family: Georgia, serif;
+}
+#summary img {
+    border: 6px solid #fff;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: .7rem;
+}
+h1.en {
+    font-size: 2.25rem;
+    margin-bottom: -.33rem;
+}
+h1.ch {
+    font-size: 1.75rem;
+    margin-bottom: .33rem;
+}
+h3 {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: #ddd;
+}
+hr {
+    background: #aaa;
+    width: 75%;
+}
+#main {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+#photos {
+    margin-bottom: 3rem;
+    font-size: 0;
+}
+.wrapper {
+    background: rgba(65, 65, 65, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 3rem;
+}
