@@ -5,6 +5,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* https://stackoverflow.com/questions/20443574/fixed-background-image-with-ios7 */
+@media (hover: none) {
+    body {
+        background-attachment: initial;
+    }
+}
 #summary {
     text-align: center;
     margin-top: -10.5rem;
