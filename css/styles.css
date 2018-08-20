@@ -41,11 +41,12 @@ hr {
 }
 #main {
     margin-top: 10rem;
-    margin-bottom: 3rem;
 }
 #photos {
-    margin-bottom: 3rem;
     font-size: 0;
+}
+#comments {
+    background-color: rgba(65, 65, 65, 0.8);
 }
 .wrapper {
     background: rgba(65, 65, 65, 0.6);
@@ -54,4 +55,5 @@ hr {
     color: #fff;
     font-size: 1.125rem;
     padding: 3rem;
+    margin-bottom: 3rem;
 }
